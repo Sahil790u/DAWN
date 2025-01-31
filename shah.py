@@ -42,7 +42,7 @@ def read_free_users():
     except FileNotFoundError:
         pass
 
- List to store allowed user IDs
+# List to store allowed user IDs
 allowed_user_ids = read_users()
 
  Function to log command to the file
